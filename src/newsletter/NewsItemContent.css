@@ -1,15 +1,9 @@
-.NewsItemContent {
- padding-left: 2%;
- padding-right: 2%;
-}
-
 .NewsItemContentHeader {
   line-height: 1.5;
   color: #564dc2;
   font-weight: 700;
   font-style: italic;
-
-  margin-top: 0.5em;
+  margin-top: 0.25em;
 }
 
 .NewsItemContentBody {
