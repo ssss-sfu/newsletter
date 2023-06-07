@@ -16,10 +16,13 @@ body {
   -webkit-text-size-adjust: 100% !important;
   -ms-text-size-adjust: 100% !important;
 }
+
 #letter-page {
   background-color: #dae5ef;
   font-family: "Dm Sans", "Trebuchet MS", Consolas, Arial, sans-serif, monospace;
+  color: #0B151C;
 }
+
 table td {
   border-collapse: collapse;
   border-spacing: 0 !important;
