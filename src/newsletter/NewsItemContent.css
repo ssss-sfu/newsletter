@@ -1,0 +1,19 @@
+.NewsItemContent {
+ padding-left: 2%;
+ padding-right: 2%;
+}
+
+.NewsItemContentHeader {
+  font-family: "Dm Sans", "Trebuchet MS", Consolas, Arial, sans-serif, monospace;
+  line-height: 1.5;
+  color: #564dc2;
+  font-weight: 700;
+  font-style: italic;
+
+  margin-top: 0.5em;
+}
+
+.NewsItemContentBody {
+  font-family: "Dm Sans", "Trebuchet MS", Consolas, Arial, sans-serif, monospace;
+  line-height: 1.5;
+}
