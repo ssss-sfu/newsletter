@@ -1,7 +1,7 @@
 ## Installing
 
 1. Install Yarn package manager
-2. yarn
+2. `yarn`
 
 ## Content
 Subject to change.
