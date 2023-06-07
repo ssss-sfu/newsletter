@@ -19,8 +19,11 @@ body {
 
 #letter-page {
   background-color: #dae5ef;
+}
+
+#letter-page .newsletter {
   font-family: "Dm Sans", "Trebuchet MS", Consolas, Arial, sans-serif, monospace;
-  color: #0B151C;
+  color: #0b151c;
 }
 
 table td {
