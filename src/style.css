@@ -18,7 +18,7 @@ body {
 }
 #letter-page {
   background-color: #dae5ef;
-  font-family: "Dm Sans", "Trebuchet MS", Consolas, Arial, sans-serif, monospace !important;
+  font-family: "Dm Sans", "Trebuchet MS", Consolas, Arial, sans-serif, monospace;
 }
 table td {
   border-collapse: collapse;
