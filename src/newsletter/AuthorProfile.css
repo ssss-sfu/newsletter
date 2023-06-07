@@ -1,9 +1,5 @@
 .authorprofile {
-  margin: 1em;
-}
-
-.authorprofile > tr > td:not(:first-child) {
-  margin-left: 2em;
+  margin: 1em 1em 1em 0;
 }
 
 .society-logo {
