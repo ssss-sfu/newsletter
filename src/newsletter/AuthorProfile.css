@@ -1,9 +1,5 @@
 .authorprofile {
-  margin: 1em;
-}
-
-.authorprofile > tr > td:not(:first-child) {
-  margin-left: 2em;
+  margin: 1em 1em 1em 0;
 }
 
 .society-logo {
@@ -15,7 +11,6 @@
 }
 
 .authorprofile .authorprofile-details .authorprofile-name {
-  font-family: "Dm Sans", "Trebuchet MS", Consolas, Arial, sans-serif, monospace;
   font-size: 18px;
   color: #24a98b;
   font-weight: 700;
