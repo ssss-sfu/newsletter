@@ -1,3 +1,9 @@
+# Software Systems Student Society Newsletter
+
+![Image](docs/example.png)
+
+React-tified version of newsletter design by Gahee Kim and SFU Women in Computing Science (WiCS).
+
 ## Installing
 
 1. Install Yarn package manager
