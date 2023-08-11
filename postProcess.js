@@ -16,3 +16,7 @@ rules.forEach((selector) => {
 });
 
 fs.writeFileSync(buildFile, dom.toString());
+
+console.log(
+  `Email HTML ready at ${buildFile}\n! Confirm with society required officers before sending out.\n< Simon Fraser University Software Systems Student Society >`
+);
