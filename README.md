@@ -4,20 +4,49 @@
 
 React-tified version of newsletter design by Gahee Kim and SFU Women in Computing Science (WiCS).
 
-## Installing
+## Install
 
-1. Install Yarn package manager
-2. `yarn`
+Run only once.
+```
+$ python3 -m venv venv && python3 -m pip install -U -r requirements.txt
+```
 
-## Content
+## Workflow
 
-Subject to change.
-View `src/App.tsx` to update content.
+1. `$ source venv/bin/activate`
+2. Edit `newsletter.json`
+3. `$ python3 newsletter.py`
+4. Use `build/build.html`
+5. `$ deactivate`
 
-## Building
-
-1. `yarn build`
-2. Use the HTML in `build/index.html` for the email.
+## Example newsletter.json
+```
+{
+  "header": {
+    "title": "SSSS October Newsletter",
+    "description": "Newsletter description"
+  },
+  "articles": [
+    {
+      "header": "Item 1",
+      "sections": [
+        {
+          "subheader": "January 1st, 12:00 PM @ SRYE 5050",
+          "text": "Text goes here",
+          "links": [
+            { "text": "www.sfussss.org", "url": "https://www.sfussss.org/" }
+          ]
+        }
+      ]
+    }
+  ],
+  "signature": {
+    "name": "Gahee Kim",
+    "position": "Secretary",
+    "endingNote": "And that's all from me! Peace!"
+  }
+}
+```
 
 ## Warning
 

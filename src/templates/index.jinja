@@ -1,0 +1,357 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+{% set vars = namespace(linkCount = 0)%}
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+    xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <!-- [ if !mso]> <!-->
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <!-- <![endif] -->
+    <meta content="telephone=no" name="format-detection" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>SSSS Newsletter</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <style type="text/css">
+        .ExternalClass,
+        .ExternalClass p,
+        .ExternalClass span,
+        .ExternalClass font,
+        .ExternalClass td,
+        .ExternalClass div,
+        .ExternalClass b,
+        .ExternalClass br,
+        .ExternalClass img {
+            line-height: 100% !important;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            -webkit-text-size-adjust: 100% !important;
+            -ms-text-size-adjust: 100% !important;
+            font-family: 'Dm Sans', 'Trebuchet MS', Consolas, Arial, sans-serif, monospace !important;
+        }
+
+        body,
+        #body_style {
+            background: #fff;
+        }
+
+        table td {
+            border-collapse: collapse;
+            border-spacing: 0 !important;
+        }
+
+        table tr {
+            border-collapse: collapse;
+            border-spacing: 0 !important;
+        }
+
+        table tbody {
+            border-collapse: collapse;
+            border-spacing: 0 !important;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0 !important;
+        }
+
+        span.yshortcuts,
+        a span.yshortcuts {
+            color: #000001;
+            background-color: none;
+            border: none;
+        }
+
+        span.yshortcuts:hover,
+        span.yshortcuts:active,
+        span.yshortcuts:focus {
+            color: #000001;
+            background-color: none;
+            border: none;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        /**** My desktop styles ****/
+        @media only screen and (min-width: 600px) {
+            .noDesk {
+                display: none !important;
+            }
+
+            .td-padding {
+                padding-left: 15px !important;
+                padding-right: 15px !important;
+            }
+
+            .padding-container {
+                padding: 0px 15px 0px 15px !important;
+                mso-padding-alt: 0px 15px 0px 15px !important;
+            }
+
+            .mobile-column-left-padding {
+                padding: 0px 0px 0px 0px !important;
+                mso-alt-padding: 0px 0px 0px 0px !important;
+            }
+
+            .mobile-column-right-padding {
+                padding: 0px 0px 0px 0px !important;
+                mso-alt-padding: 0px 0px 0px 0px !important;
+            }
+
+            .mobile {
+                display: none !important
+            }
+        }
+
+        /**** My mobile styles ****/
+        @media only screen and (max-width: 599px) and (-webkit-min-device-pixel-ratio: 1) {
+            *[class].wrapper {
+                width: 100% !important;
+            }
+
+            *[class].container {
+                width: 100% !important;
+            }
+
+            *[class].mobile {
+                width: 100% !important;
+                display: block !important;
+            }
+
+            *[class].image {
+                width: 100% !important;
+                height: auto;
+            }
+
+            *[class].center {
+                margin: 0 auto !important;
+                text-align: center !important;
+            }
+
+            *[class="mobileOff"] {
+                width: 0px !important;
+                display: none !important;
+            }
+
+            *[class*="mobileOn"] {
+                display: block !important;
+                max-height: none !important;
+            }
+
+            p[class="mobile-padding"] {
+                padding-left: 0px !important;
+                padding-top: 10px;
+            }
+
+            .padding-container {
+                padding: 0px 15px 0px 15px !important;
+                mso-padding-alt: 0px 15px 0px 15px !important;
+            }
+
+            .hund {
+                width: 100% !important;
+                height: auto !important;
+            }
+
+            .td-padding {
+                padding-left: 15px !important;
+                padding-right: 15px !important;
+            }
+
+            .mobile-column-left-padding {
+                padding: 18px 0px 18px 0px !important;
+                mso-alt-padding: 18px 0px 18px 0px !important;
+            }
+
+            .mobile-column-right-padding {
+                padding: 18px 0px 0px 0px !important;
+                mso-alt-padding: 18px 0px 0px 0px !important;
+            }
+
+            .stack {
+                width: 100% !important;
+            }
+
+            img {
+                width: 100% !important;
+                height: auto !important;
+            }
+
+            *[class="hide"] {
+                display: none !important
+            }
+
+            *[class="Gmail"] {
+                display: none !important
+            }
+
+            .Gmail {
+                display: none !important
+            }
+
+            .bottom-padding-fix {
+                padding: 0px 0px 18px 0px !important;
+                mso-alt-padding: 0px 0px 18px 0px;
+            }
+        }
+
+        * {
+            font-family: sans-serif;
+            margin: 0;
+            border: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body style="margin:0; padding:0; background-color: #DAE5EF;" bgcolor="#DAE5EF">
+
+    <!-- START EMAIL -->
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#DAE5EF">
+        <div class="Gmail"
+            style="height: 1px !important; margin-top: -1px !important; max-width: 600px !important; min-width: 600px !important; width: 600px !important;">
+        </div>
+        <div style="display: none; max-height: 0px; overflow: hidden;">
+            SSSS Newsletter
+        </div>
+        <!-- Insert &zwnj;&nbsp; hack after hidden preview text -->
+        <div style="display: none; max-height: 0px; overflow: hidden;">
+            &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+
+        <tr>
+            <td width="100%" valign="top" align="center" class="padding-container
+                style=" padding-top: 0px!important; padding-bottom: 18px!important; mso-padding-alt: 0px 0px 18px 0px;>
+                <table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="wrapper">
+                    <tr>
+                        <td>
+                            <table cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td style="border-radius: 10px; border-bottom: 2px solid #DAE5EF;" class="card-1"
+                                        width="100%" valign="top" align="center">
+                                        <table style="border-radius: 3px;" width="600" cellpadding="0" cellspacing="0"
+                                            border="0" align="center" class="wrapper" bgcolor="#ffffff">
+                                            <tr>
+                                                <td align="center">
+
+                                                    <table width="600" cellpadding="0" cellspacing="0" border="0"
+                                                        class="container">
+
+                                                        <!-- START HEADER IMAGE -->
+                                                        <tr>
+                                                            <td align="center" class="hund ripplelink" width="600">
+                                                                <img align="center" width="600"
+                                                                    style="border-radius: 3px 3px 0px 0px; width: 100%; max-width: 600px!important"
+                                                                    class="hund"
+                                                                    src="https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/banner.png">
+                                                            </td>
+                                                        </tr>
+                                                        <!-- END HEADER IMAGE -->
+
+                                                        <tr>
+                                                            <td>
+                                                                {% with title=header.title, description=header.description %}
+                                                                    {%include "header.jinja" %}
+                                                                {% endwith %}
+                                                            </td>
+                                                        </tr>
+
+                                                        <!-- CONTENT -->
+                                                        <tr>
+                                                            <td>
+                                                                {% for article in articles %}
+                                                                    {% with header=article.header, sections=article.sections%}
+                                                                        {% include "article.jinja" %}
+                                                                    {% endwith %}
+                                                                {% endfor %}
+                                                            </td>
+                                                        </tr>
+
+                                                        <!-- Signature-->
+                                                        <tr>
+                                                            <td>
+                                                                {% with name=signature.name, endingNote=signature.endingNote, position=signature.position %}
+                                                                    {% include "signature.jinja" %}
+                                                                {% endwith %}
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+
+                                            <!-- Footer -->
+                                            <tr>
+                                                <td style="background-color: #0b151c;">
+                                                    <table width="100%">
+                                                        <td
+                                                            style="text-align: center; padding: 30px 20px; padding-right: 40px; color: #FFF">
+                                                            <a href="https://www.sfussss.org/"><img
+                                                                    src="https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/footer-banner.png"
+                                                                    width="280"
+                                                                    style="padding: 20px; max-width: 280px;"></a>
+
+                                                            <a href="https://www.sfussss.org/">
+                                                                <p
+                                                                    style="font-family: 'Dm Sans', 'Trebuchet MS', Consolas, Arial, sans-serif, monospace; padding: 10px; color:#FFF">
+                                                                    https://www.sfussss.org/</p>
+                                                            </a>
+                                                            <p
+                                                                style="font-family: 'Dm Sans', 'Trebuchet MS', Consolas, Arial, sans-serif, monospace; padding: 10px; color:#FFF">
+                                                                12450 102 Ave Unit 250,
+                                                                SRYC 4016, Galleria 4
+                                                                Surrey, BC V3T 0A3</p>
+                                                            <p
+                                                                style="font-family: 'Dm Sans', 'Trebuchet MS', Consolas, Arial, sans-serif, monospace; padding: 10px; color:#FFF">
+                                                                Get in Touch: ssss-exec@sfu.ca</p>
+
+                                                            <a href="https://www.instagram.com/ssss.sfu/"><img
+                                                                    src="https://www.sfussss.org/_next/static/media/instagram.48627132.svg"
+                                                                    width="30"
+                                                                    style="padding: 20px; max-width: 30px;"></a>
+                                                            <a href="https://discord.gg/XZUd7amxPq"><img
+                                                                    src="https://www.sfussss.org/_next/static/media/discord.a8e838a8.svg"
+                                                                    width="30"
+                                                                    style="padding: 20px; max-width: 30px;"></a>
+                                                            <a href="https://www.linkedin.com/company/ssss-sfu/"><img
+                                                                    src="https://www.sfussss.org/_next/static/media/linkedin.308088ad.svg"
+                                                                    width="30"
+                                                                    style="padding: 20px; max-width: 30px;"></a>
+                                                        </td>
+                                                    </table>
+                                                </td>
+                                            </tr>
+
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    </td>
+    </tr>
+    </table>
+</body>
+
+</html>
