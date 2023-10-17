@@ -13,11 +13,9 @@ $ python3 -m venv venv && python3 -m pip install -U -r requirements.txt
 
 ## Workflow
 
-1. `$ source venv/bin/activate`
-2. Edit `newsletter.json`
-3. `$ python3 newsletter.py`
-4. Use `build/build.html`
-5. `$ deactivate`
+1. Edit `newsletter.json`
+2. `$ source venv/bin/activate && python3 newsletter.py && deactivate`
+3. Use `build/build.html`
 
 ## Example newsletter.json
 ```
