@@ -1,0 +1,17 @@
+<p style="font-family: 'Dm Sans', 'Trebuchet MS', Consolas, Arial, sans-serif, monospace;font-family: 'Dm Sans', 'Trebuchet MS', Consolas, Arial, sans-serif, monospace;
+padding-left: 2%;
+padding-right: 2%;
+font-size: 27px;
+padding-top: 4%;
+font-weight: 500;
+color: #24A98B;
+line-height: 1.2;" class="blurbTitle">{{ header }}</p>
+{% for section in sections %}
+    {% with subheader=section.subheader, text=section.text, links=section.links%}
+        {% if loop.index > 1 %}
+            <div style="margin-top: 0.75em;">{% include "section.jinja" %}</div>
+        {% else %}
+            {% include "section.jinja" %}
+        {% endif %}
+    {% endwith %}
+{% endfor %}

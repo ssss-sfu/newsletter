@@ -1,0 +1,22 @@
+{
+  "header": {
+    "title": "SSSS October Newsletter",
+    "description": "Newsletter description https://www.sfussss.org/"
+  },
+  "articles": [
+    {
+      "header": "Item 1",
+      "sections": [
+        {
+          "subheader": "January 1st, 12:00 PM @ SRYE 5050",
+          "text": "Text goes here. Visit https://www.sfussss.org/ for more."
+        }
+      ]
+    }
+  ],
+  "signature": {
+    "name": "Gahee Kim",
+    "position": "Secretary",
+    "endingNote": "And that's all from me! Peace!"
+  }
+}
