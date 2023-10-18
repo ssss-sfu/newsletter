@@ -1,7 +1,7 @@
 {
   "header": {
     "title": "SSSS October Newsletter",
-    "description": "SSSS October Newsletter TODO"
+    "description": "Newsletter description https://www.sfussss.org/"
   },
   "articles": [
     {
@@ -9,30 +9,7 @@
       "sections": [
         {
           "subheader": "January 1st, 12:00 PM @ SRYE 5050",
-          "text": "Text goes here. Text goes here. Text goes here.",
-          "links": [
-            { "text": "www.sfussss.org", "url": "https://www.sfussss.org/" }
-          ]
-        }
-      ]
-    },
-    {
-      "header": "Item 2",
-      "sections": [
-        {
-          "subheader": "January 1st, 12:00 PM @ SRYE 5050",
-          "text": "Text goes here. Text goes here. Text goes here.",
-          "links": [
-            { "text": "www.sfussss.org", "url": "https://www.sfussss.org/" }
-          ]
-        },
-        {
-          "subheader": "January 1st, 12:00 PM @ SRYE 5050",
-          "text": "Text goes here. Text goes here. Text goes here.",
-          "links": [
-            { "text": "www.sfussss.org", "url": "https://www.sfussss.org/" },
-            { "text": "www.sfussss.org", "url": "https://www.sfussss.org/" }
-          ]
+          "text": "Text goes here. Visit https://www.sfussss.org/ for more."
         }
       ]
     }

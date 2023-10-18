@@ -21,14 +21,12 @@ class Link:
 class Section:
     subheader: str
     text: str
-    links: List[Link]
 
     @staticmethod
     def from_dict(obj: Any) -> "Section":
         _subheader = str(obj.get("subheader"))
         _text = str(obj.get("text"))
-        _links = [Link.from_dict(y) for y in obj.get("links")]
-        return Section(_subheader, _text, _links)
+        return Section(_subheader, _text)
 
 
 @dataclass

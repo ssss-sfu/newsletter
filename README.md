@@ -2,7 +2,7 @@
 
 ![Image](docs/example.png)
 
-React-tified version of newsletter design by Gahee Kim and SFU Women in Computing Science (WiCS).
+Templated version of newsletter HTML by Gahee Kim and SFU Women in Computing Science (WiCS).
 
 ## Install
 
@@ -18,11 +18,14 @@ $ python3 -m venv venv && python3 -m pip install -U -r requirements.txt
 3. Use `build/build.html`
 
 ## Example newsletter.json
+
+Links are only supported under `header.description` and `articles.sections[i].text`.
+
 ```
 {
   "header": {
     "title": "SSSS October Newsletter",
-    "description": "Newsletter description"
+    "description": "Newsletter description https://www.sfussss.org/"
   },
   "articles": [
     {
@@ -30,10 +33,7 @@ $ python3 -m venv venv && python3 -m pip install -U -r requirements.txt
       "sections": [
         {
           "subheader": "January 1st, 12:00 PM @ SRYE 5050",
-          "text": "Text goes here",
-          "links": [
-            { "text": "www.sfussss.org", "url": "https://www.sfussss.org/" }
-          ]
+          "text": "Text goes here. Visit https://www.sfussss.org/ for more."
         }
       ]
     }

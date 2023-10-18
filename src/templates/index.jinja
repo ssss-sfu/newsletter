@@ -4,6 +4,8 @@
     xmlns:o="urn:schemas-microsoft-com:office:office">
 
 <head>
+    <meta name="color-scheme" content="light only">
+    <meta name="supported-color-schemes" content="light only">
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
     <!-- [ if !mso]> <!-->
     <meta content="IE=edge" http-equiv="X-UA-Compatible" />
@@ -215,6 +217,7 @@
 
         * {
             font-family: sans-serif;
+            color-scheme: light only;
             margin: 0;
             border: 0;
             padding: 0;
@@ -268,8 +271,9 @@
 
                                                         <tr>
                                                             <td>
-                                                                {% with title=header.title, description=header.description %}
-                                                                    {%include "header.jinja" %}
+                                                                {% with title=header.title,
+                                                                description=header.description %}
+                                                                {%include "header.jinja" %}
                                                                 {% endwith %}
                                                             </td>
                                                         </tr>
@@ -278,9 +282,10 @@
                                                         <tr>
                                                             <td>
                                                                 {% for article in articles %}
-                                                                    {% with header=article.header, sections=article.sections%}
-                                                                        {% include "article.jinja" %}
-                                                                    {% endwith %}
+                                                                {% with header=article.header,
+                                                                sections=article.sections%}
+                                                                {% include "article.jinja" %}
+                                                                {% endwith %}
                                                                 {% endfor %}
                                                             </td>
                                                         </tr>
@@ -288,8 +293,10 @@
                                                         <!-- Signature-->
                                                         <tr>
                                                             <td>
-                                                                {% with name=signature.name, endingNote=signature.endingNote, position=signature.position %}
-                                                                    {% include "signature.jinja" %}
+                                                                {% with name=signature.name,
+                                                                endingNote=signature.endingNote,
+                                                                position=signature.position %}
+                                                                {% include "signature.jinja" %}
                                                                 {% endwith %}
                                                             </td>
                                                         </tr>
