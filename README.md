@@ -19,7 +19,7 @@ $ python3 -m venv venv && python3 -m pip install -U -r requirements.txt
 
 ## Example newsletter.json
 
-Links are only supported under `header.description` and `articles.sections[i].text`.
+Links are only supported under `header.description` and `articles[i].sections[j].text`.
 
 ```
 {
