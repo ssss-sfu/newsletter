@@ -9,7 +9,7 @@ padding-right: 2%;
     font-style: italic;" class="detail">{{ subheader }}</p>
     {% for paragraph in text %}
         <p style="font-family: 'Dm Sans', 'Trebuchet MS', Consolas, Arial, sans-serif, monospace;
-        line-height: 1.5; margin-top:0.35em;">{{ paragraph | urlize }}</p>
+        line-height: 1.5; margin-top:0.35em;">{{ paragraph | safe | urlize }}</p>
     {% endfor %}
     
 </div>

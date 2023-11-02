@@ -9,7 +9,7 @@
       "sections": [
         {
           "subheader": "January 1st, 12:00 PM @ SRYE 5050",
-          "text": ["Text goes here. Visit https://www.sfussss.org/ for more.", "Next Paragraph"]
+          "text": ["Text goes here. Visit https://www.sfussss.org/ for <b>more</b>.", "Next Paragraph"]
         }
       ]
     }

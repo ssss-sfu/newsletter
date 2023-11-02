@@ -19,8 +19,6 @@ $ python3 -m venv venv && source venv/bin/activate && python3 -m pip install -U 
 
 ## Example newsletter.json
 
-Links are only supported under `header.description` and `articles[i].sections[j].text`.
-
 ```
 {
   "header": {
@@ -45,6 +43,11 @@ Links are only supported under `header.description` and `articles[i].sections[j]
   }
 }
 ```
+
+### Special Formatting
+- `header.description` and `articles[i].sections[j].text`
+  - Links supported (URL)
+  - Bold text supported `<b>...</b>`
 
 ## Warning
 
