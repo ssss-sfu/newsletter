@@ -33,7 +33,7 @@ Links are only supported under `header.description` and `articles[i].sections[j]
       "sections": [
         {
           "subheader": "January 1st, 12:00 PM @ SRYE 5050",
-          "text": "Text goes here. Visit https://www.sfussss.org/ for more."
+          "text": ["Text goes here. Visit https://www.sfussss.org/ for more.", "Next Paragraph"]
         }
       ]
     }
