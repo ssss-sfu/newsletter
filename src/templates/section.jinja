@@ -7,6 +7,9 @@ padding-right: 2%;
     color: #564DC2;
     font-weight: 700;
     font-style: italic;" class="detail">{{ subheader }}</p>
-    <p style="font-family: 'Dm Sans', 'Trebuchet MS', Consolas, Arial, sans-serif, monospace;
-    line-height: 1.5;">{{ text | urlize }}</p>
+    {% for paragraph in text %}
+        <p style="font-family: 'Dm Sans', 'Trebuchet MS', Consolas, Arial, sans-serif, monospace;
+        line-height: 1.5; margin-top:0.35em;">{{ paragraph | urlize }}</p>
+    {% endfor %}
+    
 </div>
