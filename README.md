@@ -8,7 +8,7 @@ Templated version of newsletter HTML by Gahee Kim and SFU Women in Computing Sci
 
 Run only once.
 ```
-$ python3 -m venv venv && python3 -m pip install -U -r requirements.txt
+$ python3 -m venv venv && source venv/bin/activate && python3 -m pip install -U -r requirements.txt
 ```
 
 ## Workflow
