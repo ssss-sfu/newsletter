@@ -293,17 +293,8 @@
                                                         <tr>
                                                             <td>
                                                                 <!-- EVENT RECAPS -->
+                                                                  <div style="background-color: #f4f7fb;">
                                                               
-                                                                <p style="
-                                                                font-size: 32px;
-                                                                font-weight: 700;
-                                                                padding-top: 30px;
-                                                                padding-left: 2%;
-                                                                color: #1D3557;
-                                                                ">
-                                                                    Event Recaps
-                                                                </p>
-
                                                                 {% for article in recap_articles %}
                                                                     {% with
                                                                     header=article.header,
@@ -313,9 +304,9 @@
                                                                 {% endfor %}
 
                                                           
-
+                                                                   </div>
                                                                 <!-- UPCOMING EVENTS -->
-                                                                <div style="background-color: #effffc;">
+                                                              
                                                                 <p style="
                                                                 font-size: 32px;
                                                                 font-weight: 700;
@@ -333,7 +324,7 @@
                                                                         {% include "article.jinja" %}
                                                                     {% endwith %}
                                                                 {% endfor %}
-                                                             </div>
+                                                          
                                                             </td>
                                                         </tr>
 
