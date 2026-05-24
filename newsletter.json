@@ -1,12 +1,12 @@
 {
   "header": {
-    "title": "SSSS April Newsletter",
+    "title": "SSSS June Newsletter",
     "description": "HELLO SOSY!!!"
   },
 
   "recap_articles": [
     {
-      "header": "March Event Recap 😍",
+      "header": "May Event Recap 😍",
       "sections": [
         {
           "subheader": "Board Games Night",
@@ -16,7 +16,7 @@
 
           "images": [
             {
-              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/fas.png",
+              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/terrariums.JPG",
               "alt": "Students playing board games",
               "caption": "Board Games Night turnout!"
             }
@@ -28,12 +28,12 @@
 
   "upcoming_articles": [
     {
-      "header": "SSSS FIRST YEAR STUDY HALL",
+      "header": "SSSS FIRST YEAR EVENT",
       "sections": [
         {
-          "subheader": "Wednesday, April 8th 2-6PM",
+          "subheader": "date",
           "text": [
-            "Need a place to focus?"
+            "do u love lego?"
           ]
         }
       ]
