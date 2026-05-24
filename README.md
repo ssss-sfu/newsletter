@@ -2,7 +2,7 @@
 
 ![Image](docs/example.png)
 
-Templated version of newsletter HTML by Gahee Kim and SFU Women in Computing Science (WiCS). Update to support images and separate sections
+Templated version of newsletter HTML by Gahee Kim and SFU Women in Computing Science (WiCS). Updatd to support images and separate sections
 
 ## Install
 
@@ -38,7 +38,7 @@ $ python3 -m venv venv && source venv/bin/activate && python3 -m pip install -U 
 
           "images": [
             {
-              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/terrariums.JPG",
+              "src": "",
               "alt": "alt text",
               "caption": "caption"
             }
@@ -59,7 +59,7 @@ $ python3 -m venv venv && source venv/bin/activate && python3 -m pip install -U 
           ],
           "images": [
             {
-              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/bgn.png",
+              "src": "",
               "alt": "alt text",
               "caption": "caption"
             } 
@@ -79,10 +79,13 @@ $ python3 -m venv venv && source venv/bin/activate && python3 -m pip install -U 
 
 ### Special Formatting
 - `header.description` and `articles[i].sections[j].text`
-  - Links supported (URL)
-  - Bold text supported `<b>...</b>`
-  - Images supported (must be uploaded to repo)
-  - separate sections supported 
+- Links supported (URL)
+- Bold text supported `<b>...</b>`
+- Images supported 
+  - must upload images to github repo, use `https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/image_name` for image source
+  - caption optional
+- separate sections supported 
+  - set up for event recap and upcoming events,  can update section titles under `index.jinja`
 
 ## Warning
 
