@@ -2,7 +2,7 @@
 
 ![Image](docs/example.png)
 
-Templated version of newsletter HTML by Gahee Kim and SFU Women in Computing Science (WiCS).
+Templated version of newsletter HTML by Gahee Kim and SFU Women in Computing Science (WiCS). Update to support images and separate sections
 
 ## Install
 
@@ -22,24 +22,57 @@ $ python3 -m venv venv && source venv/bin/activate && python3 -m pip install -U 
 ```
 {
   "header": {
-    "title": "SSSS October Newsletter",
-    "description": "Newsletter description https://www.sfussss.org/"
+    "title": "SSSS June Newsletter",
+    "description": "HELLO SOSY!!!"
   },
-  "articles": [
+
+  "recap_articles": [
     {
-      "header": "Item 1",
+      "header": "May Event Recap 😍",
       "sections": [
         {
-          "subheader": "January 1st, 12:00 PM @ SRYE 5050",
-          "text": ["Text goes here. Visit https://www.sfussss.org/ for more.", "Next Paragraph"]
+          "subheader": "EVENT NAME",
+          "text": [
+            "Thanks to everyone who joined us!"
+          ],
+
+          "images": [
+            {
+              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/terrariums.JPG",
+              "alt": "alt text",
+              "caption": "caption"
+            }
+          ]
         }
       ]
     }
   ],
+
+  "upcoming_articles": [
+    {
+      "header": "EVENT NAME",
+      "sections": [
+        {
+          "subheader": "date",
+          "text": [
+            "BLURB"
+          ],
+          "images": [
+            {
+              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/bgn.png",
+              "alt": "alt text",
+              "caption": "caption"
+            } 
+          ]
+        }
+      ]
+    }
+  ],
+
   "signature": {
-    "name": "Gahee Kim",
-    "position": "Secretary",
-    "endingNote": "And that's all from me! Peace!"
+    "name": "FIRST_NAME LAST_NAME",
+    "position": "POSITION",
+    "endingNote": "ENDING NOTE!"
   }
 }
 ```
@@ -48,6 +81,8 @@ $ python3 -m venv venv && source venv/bin/activate && python3 -m pip install -U 
 - `header.description` and `articles[i].sections[j].text`
   - Links supported (URL)
   - Bold text supported `<b>...</b>`
+  - Images supported (must be uploaded to repo)
+  - separate sections supported 
 
 ## Warning
 

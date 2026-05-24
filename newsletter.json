@@ -9,7 +9,7 @@
       "header": "May Event Recap 😍",
       "sections": [
         {
-          "subheader": "Board Games Night",
+          "subheader": "EVENT NAME",
           "text": [
             "Thanks to everyone who joined us!"
           ],
@@ -17,8 +17,8 @@
           "images": [
             {
               "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/terrariums.JPG",
-              "alt": "Students playing board games",
-              "caption": "Board Games Night turnout!"
+              "alt": "alt text",
+              "caption": "caption"
             }
           ]
         }
@@ -28,12 +28,19 @@
 
   "upcoming_articles": [
     {
-      "header": "SSSS FIRST YEAR EVENT",
+      "header": "EVENT NAME",
       "sections": [
         {
           "subheader": "date",
           "text": [
-            "do u love lego?"
+            "BLURB"
+          ],
+          "images": [
+            {
+              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/bgn.png",
+              "alt": "alt text",
+              "caption": "caption"
+            } 
           ]
         }
       ]
@@ -41,8 +48,8 @@
   ],
 
   "signature": {
-    "name": "Jaycie Say",
-    "position": "Co-President",
-    "endingNote": "that's all folks!"
+    "name": "FIRST_NAME LAST_NAME",
+    "position": "POSITION",
+    "endingNote": "ENDING NOTE!"
   }
 }
