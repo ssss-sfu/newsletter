@@ -19,6 +19,7 @@
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
     <style type="text/css">
+    
         .ExternalClass,
         .ExternalClass p,
         .ExternalClass span,
@@ -29,6 +30,9 @@
         .ExternalClass br,
         .ExternalClass img {
             line-height: 100% !important;
+        }
+        :root {
+            --main-font: 'DM Sans', 'Trebuchet MS', Arial, sans-serif;
         }
 
         body {
@@ -216,7 +220,7 @@
         }
 
         * {
-            font-family: sans-serif;
+            font-family: var(--main-font) !important;
             color-scheme: light only;
             margin: 0;
             border: 0;
@@ -225,7 +229,14 @@
     </style>
 </head>
 
-<body style="margin:0; padding:0; background-color: #DAE5EF;" bgcolor="#DAE5EF">
+<body
+    style="
+        margin:0;
+        padding:0;
+        background-color:#DAE5EF;
+        font-family:'DM Sans','Trebuchet MS',Arial,sans-serif;
+    "
+    bgcolor="#DAE5EF">
 
     <!-- START EMAIL -->
     <table width="100%" cellpadding="0" cellspacing="0" style="background-color: #DAE5EF;" border="0" bgcolor="#DAE5EF">
@@ -281,12 +292,48 @@
                                                         <!-- CONTENT -->
                                                         <tr>
                                                             <td>
-                                                                {% for article in articles %}
-                                                                {% with header=article.header,
-                                                                sections=article.sections%}
-                                                                {% include "article.jinja" %}
-                                                                {% endwith %}
+                                                                <!-- EVENT RECAPS -->
+                                                              
+                                                                <p style="
+                                                                font-size: 32px;
+                                                                font-weight: 700;
+                                                                padding-top: 30px;
+                                                                padding-left: 2%;
+                                                                color: #1D3557;
+                                                                ">
+                                                                    Event Recaps
+                                                                </p>
+
+                                                                {% for article in recap_articles %}
+                                                                    {% with
+                                                                    header=article.header,
+                                                                    sections=article.sections %}
+                                                                        {% include "article.jinja" %}
+                                                                    {% endwith %}
                                                                 {% endfor %}
+
+                                                          
+
+                                                                <!-- UPCOMING EVENTS -->
+                                                                <div style="background-color: #effffc;">
+                                                                <p style="
+                                                                font-size: 32px;
+                                                                font-weight: 700;
+                                                                padding-top: 40px;
+                                                                padding-left: 2%;
+                                                                color: #1D3557;
+                                                                ">
+                                                                    Upcoming Events
+                                                                </p>
+
+                                                                {% for article in upcoming_articles %}
+                                                                    {% with
+                                                                    header=article.header,
+                                                                    sections=article.sections %}
+                                                                        {% include "article.jinja" %}
+                                                                    {% endwith %}
+                                                                {% endfor %}
+                                                             </div>
                                                             </td>
                                                         </tr>
 

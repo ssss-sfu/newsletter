@@ -15,18 +15,39 @@ class Link:
         _text = str(obj.get("text"))
         _url = str(obj.get("url"))
         return Link(_text, _url)
+    
+@dataclass
+class Image:
+    src: str
+    alt: str = ""
+    caption: str = ""
+
+    @staticmethod
+    def from_dict(obj):
+        return Image(
+            src=obj.get("src"),
+            alt=obj.get("alt", ""),
+            caption=obj.get("caption", "")
+        )
 
 
 @dataclass
 class Section:
     subheader: str
     text: List[str]
+    images: List[Image]
 
     @staticmethod
     def from_dict(obj: Any) -> "Section":
         _subheader = str(obj.get("subheader"))
-        _text = [str(y) for y in obj.get("text")]
-        return Section(_subheader, _text)
+        _text = [str(y) for y in obj.get("text", [])]
+
+        _images = [
+            Image.from_dict(y)
+            for y in obj.get("images", [])
+        ]
+
+        return Section(_subheader, _text, _images)
 
 
 @dataclass
@@ -70,16 +91,32 @@ class Header:
 @dataclass
 class Root:
     header: Header
-    articles: List[Article]
+    recap_articles: List[Article]
+    upcoming_articles: List[Article]
     signature: Signature
 
     @staticmethod
     def from_dict(obj: Any) -> "Root":
         _header = Header.from_dict(obj.get("header"))
-        _articles = [Article.from_dict(y) for y in obj.get("articles")]
-        _signature = Signature.from_dict(obj.get("signature"))
-        return Root(_header, _articles, _signature)
 
+        _recap_articles = [
+            Article.from_dict(y)
+            for y in obj.get("recap_articles", [])
+        ]
+
+        _upcoming_articles = [
+            Article.from_dict(y)
+            for y in obj.get("upcoming_articles", [])
+        ]
+
+        _signature = Signature.from_dict(obj.get("signature"))
+
+        return Root(
+            _header,
+            _recap_articles,
+            _upcoming_articles,
+            _signature
+        )
 
 # Example Usage
 # jsonstring = json.loads(myjsonstring)

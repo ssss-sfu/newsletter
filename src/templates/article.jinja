@@ -7,7 +7,12 @@ font-weight: 500;
 color: #24A98B;
 line-height: 1.2;" class="blurbTitle">{{ header }}</p>
 {% for section in sections %}
-    {% with subheader=section.subheader, text=section.text, links=section.links%}
+    {% with
+        subheader=section.subheader,
+        text=section.text,
+        links=section.links,
+        images=section.images
+        %}
         {% if loop.index > 1 %}
             <div style="margin-top: 0.75em;">{% include "section.jinja" %}</div>
         {% else %}

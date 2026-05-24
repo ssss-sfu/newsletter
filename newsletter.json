@@ -1,68 +1,48 @@
 {
   "header": {
     "title": "SSSS April Newsletter",
-    "description": "HELLO SOSY!!! Spring is here and so is final season, best of luck to everyone we are almost done!!"
+    "description": "HELLO SOSY!!!"
   },
-  "articles": [
+
+  "recap_articles": [
     {
       "header": "March Event Recap 😍",
       "sections": [
         {
-          "subheader": "It was a busy month for the SSSS, featuring Board Game Night, the SAP Office Tour, Terrariums, and a Coffee Chat with Nick Sumner!",
-          "text": ["Thanks to everyone who joined us, we hope you had fun! And we’re excited to see you at our upcoming events!!!"]
-        }
-      ]
-    },
-     {
-      "header": "SSSS ELECTIONS",
-      "sections": [
-        {
-          "subheader": "NOMINATIONS CLOSE MONDAY, FRIDAY, APRIL 17TH",
-          "text": ["Nominations are open between now and 17 April 2026 at 11:59 PM. Please send your nominations to softwaresystems.council@sfss.ca with the following information: Your full name,  SFU computing ID, Position of choice, A blurb/speech on why you should be chosen", "More information is available in our constitution https://drive.google.com/file/d/17VC184yvJ8EuUwU8XShSusroXgQDhH8Y/view?usp=sharing", "More information in the SSSS Discord and if you have any questions please reach out to Matthew at softwaresystems.council@sfss.ca!"]
-        }
-      ]
-    },  
-    {
-      "header": "SSSS FIRST YEAR STUDY HALL",
-      "sections": [
-        {
-          "subheader": "Wednesday, April 8th 2-6PM, room TBA",
-          "text": ["Need a place to focus? Stop by the First Years Study Hall to prep for finals, wrap up group projects, and grab some yummy snacks!"]
-        }
-      ]
-    },  
+          "subheader": "Board Games Night",
+          "text": [
+            "Thanks to everyone who joined us!"
+          ],
 
-    {
-      "header": "SSSS Board Games Night",
-      "sections": [
-        {
-          "subheader": "Monday, April 27th 2-5PM",
-          "text": ["The last event of the term 😍 Come hang out and celebrate the end of finals with us 🥳"]
-        }
-      ]
-    },
-    {
-      "header": "EA Office Tour",
-      "sections": [
-        {
-          "subheader": "Wednesday, April 29th 3-5PM",
-          "text": ["This event is organized by FAS, if you RSVP'd look out for a confirmation email from them soon!"]
-        }
-      ]
-    },
-    {
-      "header": "SSSS Meetings",
-      "sections": [
-        {
-          "subheader": "Thursday, April 16th 5:30PM on Discord, Thursday, April 30th 5:30PM SRYE 5050",
-          "text": ["As the 2025-2026 executive terms come to an end, come and see what the SSSS has been up to this year and what we plan to do in the future!!"]
+          "images": [
+            {
+              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/fas.png",
+              "alt": "Students playing board games",
+              "caption": "Board Games Night turnout!"
+            }
+          ]
         }
       ]
     }
   ],
+
+  "upcoming_articles": [
+    {
+      "header": "SSSS FIRST YEAR STUDY HALL",
+      "sections": [
+        {
+          "subheader": "Wednesday, April 8th 2-6PM",
+          "text": [
+            "Need a place to focus?"
+          ]
+        }
+      ]
+    }
+  ],
+
   "signature": {
     "name": "Jaycie Say",
     "position": "Co-President",
-    "endingNote": "that's all folks! see you next month :)"
+    "endingNote": "that's all folks!"
   }
 }

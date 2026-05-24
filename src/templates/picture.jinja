@@ -1,0 +1,26 @@
+<div style="padding-top: 15px; text-align: center;">
+
+    <img
+        src="{{ image.src }}"
+        alt="{{ image.alt }}"
+        width="100%"
+        style="
+            max-width: 540px;
+            border-radius: 10px;
+            display: block;
+            margin: 0 auto;
+        "
+    >
+
+    {% if image.caption %}
+    <p style="
+        font-size: 14px;
+        color: #666;
+        padding-top: 8px;
+        font-style: italic;
+    ">
+        {{ image.caption }}
+    </p>
+    {% endif %}
+
+</div>

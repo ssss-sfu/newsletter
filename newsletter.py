@@ -19,7 +19,8 @@ template = environment.get_template("index.jinja")
 
 output = template.render(
     header=newsletterConfig.header,
-    articles=newsletterConfig.articles,
+    recap_articles=newsletterConfig.recap_articles,
+    upcoming_articles=newsletterConfig.upcoming_articles,   
     signature=newsletterConfig.signature,
 )
 
