@@ -25,7 +25,12 @@
          {
           "subheader": "New Shirts!!",
           "text": [
-            "New SSSS shirts are here! Designed by Seb and available for just $15. Get yours from our merch store while supplies last.", "https://merch.sfussss.org"
+            "New SSSS shirts are here! Designed by Seb and available for $15. Get yours from our merch store while supplies last.", "https://merch.sfussss.org"
+          ],
+          "images": [
+            {
+              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/2026_shirts.png"
+            }
           ]
         }
       ]
@@ -41,7 +46,7 @@
 
           "images": [
             {
-              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/may_bgn.png",
+              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/may_bgn.jpg",
               "alt": "SSSS board game night!"
             }
           ]
