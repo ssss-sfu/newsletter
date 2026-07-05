@@ -1,28 +1,21 @@
 {
   "header": {
-    "title": "SSSS June Newsletter",
-    "description": "HELLO SOSY!!! Congrats to all our SOSY grads this semester 🥳"
+    "title": "SSSS July Newsletter",
+    "description": "HELLO SOSY!!! With Summer right around the corner, let's reminisce about our fun in June!"
   },
 
   "recap_articles": [
    {
-      "header": "June News",
+      "header": "July News",
       "sections": [
         {
-          "subheader": "Meet the 2026/2027 SSSS executives!",
+          "subheader": "AI Software Challenge Interest Check!!",
           "text": [
-            "Stay tuned for the events, projects, and opportunities we have planned for the year ahead!!"
-          ],
-
-          "images": [
-            {
-              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/ssss-execs.jpg",
-              "alt": "alt text",
-              "caption": "SSSS Exececutive Team 2026/2027"
-            }
+            "The SSSS needs your help in gauging interest for a new AI-focused software development competition! Fill out the linked form if interested.",
+            "https://docs.google.com/forms/d/e/1FAIpQLSdtHiV81WiOENJ47nREH9jAjSGWfR8oZGAUtoEhoVC4zKOVTQ/viewform"
           ]
         },
-         {
+        {
           "subheader": "New Shirts!!",
           "text": [
             "New SSSS shirts are here! Designed by Seb and available for $15. Get yours from our merch store while supplies last.", "https://merch.sfussss.org"
@@ -36,18 +29,42 @@
       ]
     },
     {
-      "header": "May Event Recap 😍",
+      "header": "June Event Recap",
       "sections": [
         {
-          "subheader": "Board Game Night!",
+          "subheader": "Study Hall",
           "text": [
-            "Thanks to everyone who joined us!! We hope to see you at our next events in June :D"
+            "They snacked, They studied... SOSY hosts a successful Study Hall!"
           ],
 
           "images": [
             {
-              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/may_bgn.jpg",
-              "alt": "SSSS board game night!"
+              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/studyhall.jpg",
+              "alt": "SSSS Study Hall!"
+            }
+          ]
+        },
+        {
+          "subheader": "Creativity Zone",
+          "text": [
+            "Paintings and great memories galore! Check out the amazing artwork by fellow SOSY students!"
+          ],
+          "images": [
+            {
+              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/creativity-zone-1.jpeg",
+              "alt": "SSSS Creativity Zone!"
+            }
+          ]
+        },
+        {
+          "subheader": "Hiking SSSSocial",
+          "text": [
+            "SOSY touched grass and saw some nice views out in Tunnel Bluffs!"
+          ],
+          "images": [
+            {
+              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/ssss_hikinh.jpg",
+              "alt": "SSSS Hiking SSSSocial!"
             }
           ]
         }
@@ -57,40 +74,34 @@
 
   "upcoming_articles": [
     {
-      "header": "STUDY HALL",
+      "header": "SUMMER GENERAL MEETING",
       "sections": [
         {
-          "subheader": "Tuesday, June 17, 12-3PM, Room TBA",
+          "subheader": "Tuesday, July 7, 6PM, SRYE 5050 and Online",
           "text": [
-            "Come grab some snacks and study with us!!!"
+            "Come tune in to see what the SSSS has planned this summer!"
           ]
         }
       ]
     },
     {
-      "header": "CREATIVITY ZONE",
+      "header": "BOARD GAME NIGHT + KARAOKE",
       "sections": [
         {
-          "subheader": "Monday, June 22nd 3-6PM, SRYE 5050",
+          "subheader": "Friday, July 10th 5-9PM, SRYE 5050",
           "text": [
-            "Come spend a relaxing afternoon letting your inner artist out :)"
-          ],
-           "images": [
-            {
-              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/creativity_zone.png",
-              "alt": "SSSS Creativity Zone Event!"
-            }
+            "Play some board games and sing your heart out with!"
           ]
         }
       ]
     },
     {
-      "header": "SSSS HIKE",
+      "header": "BEACH SOCIAL",
       "sections": [
         {
-          "subheader": "Sunday, June 28th, Tunnel Bluffs",
+          "subheader": "Saturday, July 18th",
           "text": [
-            "Join the SSSS for a hike at Tunnel Bluffs, more details to be announced!"
+            "Join the SSSS for a lovely Beach Day, more details to be announced!"
           ]
         }
       ]
@@ -98,8 +109,8 @@
   ],
 
   "signature": {
-    "name": "Jaycie Say",
-    "position": "Co-President",
-    "endingNote": "That's all folks! Have a good day :)"
+    "name": "Ryan Gamboa",
+    "position": "Upper Division Representative",
+    "endingNote": "aaaaannnddd that's a wrap! see you in August :)"
   }
 }
