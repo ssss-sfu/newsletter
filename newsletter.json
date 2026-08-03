@@ -1,7 +1,7 @@
 {
   "header": {
-    "title": "SSSS July Newsletter",
-    "description": "HELLO SOSY!!! With Summer right around the corner, let's reminisce about our fun in June!"
+    "title": "SSSS August Newsletter",
+    "description": "yelllooo SOSY students! Let's start off FINALS SZN by looking back on our July events!"
   },
 
   "recap_articles": [
@@ -9,62 +9,61 @@
       "header": "July News",
       "sections": [
         {
-          "subheader": "AI Software Challenge Interest Check!!",
+          "subheader": "SOSY Program Feedback Form!!",
           "text": [
-            "The SSSS needs your help in gauging interest for a new AI-focused software development competition! Fill out the linked form if interested.",
-            "https://docs.google.com/forms/d/e/1FAIpQLSdtHiV81WiOENJ47nREH9jAjSGWfR8oZGAUtoEhoVC4zKOVTQ/viewform"
+            "The SSSS wants to hear about AND improve YOUR experience with the SOSY program! Fill out the linked form to share your thoughts.",
+            "https://docs.google.com/forms/d/e/1FAIpQLSfrUM0YhPjMXUWX3meVewJ88UIfai-SAJEXkj7wauwIeV12xg/viewform"
           ]
         },
         {
-          "subheader": "New Shirts!!",
+          "subheader": "",
           "text": [
-            "New SSSS shirts are here! Designed by Seb and available for $15. Get yours from our merch store while supplies last.", "https://merch.sfussss.org"
+            ""
           ],
           "images": [
             {
-              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/2026_shirts.png"
+              "src": ""
             }
           ]
         }
       ]
     },
     {
-      "header": "June Event Recap",
+      "header": "July Event Recap",
       "sections": [
         {
-          "subheader": "Study Hall",
+          "subheader": "Board Games Night + Karaoke",
           "text": [
-            "They snacked, They studied... SOSY hosts a successful Study Hall!"
+            "Games were played and Songs were sung... BGN + Karaoke was tons of fun!"
           ],
-
           "images": [
             {
-              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/studyhall.jpg",
-              "alt": "SSSS Study Hall!"
+              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/karaoke.jpg",
+              "alt": "SSSS Board Games Night + Karaoke!"
             }
           ]
         },
         {
-          "subheader": "Creativity Zone",
+          "subheader": "Beach SSSSocial",
           "text": [
-            "Paintings and great memories galore! Check out the amazing artwork by fellow SOSY students!"
+            "What's better than some Fun in the Sun? Doing it with the SSSS!"
           ],
           "images": [
             {
-              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/creativity-zone-1.jpeg",
-              "alt": "SSSS Creativity Zone!"
+              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/beachsocial26.jpg",
+              "alt": "SSSS Beach Social!"
             }
           ]
         },
         {
-          "subheader": "Hiking SSSSocial",
+          "subheader": "",
           "text": [
-            "SOSY touched grass and saw some nice views out in Tunnel Bluffs!"
+            ""
           ],
           "images": [
             {
-              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/ssss_hikingjpg.jpg",
-              "alt": "SSSS Hiking SSSSocial!"
+              "src": "",
+              "alt": ""
             }
           ]
         }
@@ -74,34 +73,34 @@
 
   "upcoming_articles": [
     {
-      "header": "SUMMER GENERAL MEETING",
+      "header": "BOARD GAME NIGHT",
       "sections": [
         {
-          "subheader": "Tuesday, July 7, 6PM, SRYE 5050 and Online",
+          "subheader": "Wednesday, August 5, 5-9PM, SRYE 5050",
           "text": [
-            "Come tune in to see what the SSSS has planned this summer!"
+            "Play some board games and take a break from studying!"
           ]
         }
       ]
     },
     {
-      "header": "BOARD GAME NIGHT + KARAOKE",
+      "header": "Hiking Social",
       "sections": [
         {
-          "subheader": "Friday, July 10th 5-9PM, SRYE 5050",
+          "subheader": "Sunday, August 30th",
           "text": [
-            "Play some board games and sing your heart out with!"
+            "Join the SSSS for a lovely Hike, more details TBA!"
           ]
         }
       ]
     },
     {
-      "header": "BEACH SOCIAL",
+      "header": "",
       "sections": [
         {
-          "subheader": "Saturday, July 18th",
+          "subheader": "",
           "text": [
-            "Join the SSSS for a lovely Beach Day, more details to be announced!"
+            ""
           ]
         }
       ]
@@ -111,6 +110,6 @@
   "signature": {
     "name": "Ryan Gamboa",
     "position": "Upper Division Representative",
-    "endingNote": "aaaaannnddd that's a wrap! see you in August :)"
+    "endingNote": "aaaaannnddd that's a wrap! see you in September :)"
   }
 }
