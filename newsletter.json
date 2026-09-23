@@ -1,69 +1,82 @@
 {
   "header": {
-    "title": "SSSS August Newsletter",
-    "description": "yelllooo SOSY students! Let's start off FINALS SZN by looking back on our July events!"
+    "title": "SSSS September Newsletter",
+    "description": "yooooo, what's going on SOSY students?! Let's start the last semester of 2026 off right with a recap of August - September!"
   },
 
   "recap_articles": [
    {
-      "header": "July News",
+      "header": "September News",
       "sections": [
         {
-          "subheader": "SOSY Program Feedback Form!!",
+          "subheader": "Roadmap Night!",
           "text": [
-            "The SSSS wants to hear about AND improve YOUR experience with the SOSY program! Fill out the linked form to share your thoughts.",
-            "https://docs.google.com/forms/d/e/1FAIpQLSfrUM0YhPjMXUWX3meVewJ88UIfai-SAJEXkj7wauwIeV12xg/viewform"
-          ]
-        },
-        {
-          "subheader": "",
-          "text": [
-            ""
+            "Learn how to get the most out of your CS/SoSy degree at Roadmap Night! This event gives you direct access to SFU faculty perspective and peer experience, helping you take a more goal-driven approach to your degree.",
+            "https://luma.com/5egcwk30"
           ],
           "images": [
             {
-              "src": ""
+              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/roadmap_night.png",
+              "alt": "CSSS/SSSS Roadmap Night Event Poster"
+            }
+          ]
+        },
+        {
+          "subheader": "SSSS Elections",
+          "text": [
+            "It's By-Election time for the SSSS Executive Team! If you are interested, send your nomination to ss-pres@sfu.ca BEFORE SEPTEMBER 28 @ 11:59PM with the following info:",
+            "- Your full name",
+            "- SFU computing ID",
+            "- Position of choice",
+            "- A blurb/speech on why you should be chosen",
+            "Info about the roles can be found in the link provided.",
+            "https://docs.google.com/document/d/13Pqf_bsGlZXkNbL-ML_ezK4w7IPrXoqZqP9Wv8fFQJc/edit?usp=sharing"
+          ],
+          "images": [
+            {
+              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/ssss_elections.png",
+              "alt": "SSSS By-Election Poster"
             }
           ]
         }
       ]
     },
     {
-      "header": "July Event Recap",
+      "header": "August - September Event Recap",
       "sections": [
         {
-          "subheader": "Board Games Night + Karaoke",
+          "subheader": "September's FROSH",
           "text": [
-            "Games were played and Songs were sung... BGN + Karaoke was tons of fun!"
+            "Congratulations to all the SOSY Froshees on their first-ever FROSH! Shout-out to all the SOSY execs/leaders who helped out with the week's events <3 "
           ],
           "images": [
             {
-              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/karaoke.jpg",
-              "alt": "SSSS Board Games Night + Karaoke!"
+              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/midnight_madness.jpeg",
+              "alt": "SSSS Once Upon A Frosh"
             }
           ]
         },
         {
-          "subheader": "Beach SSSSocial",
+          "subheader": "August's Board Game Night",
           "text": [
-            "What's better than some Fun in the Sun? Doing it with the SSSS!"
+            "Pizza, Board Games, and SOSY friends! What more could you need?"
           ],
           "images": [
             {
-              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/beachsocial26.jpg",
-              "alt": "SSSS Beach Social!"
+              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/august_bgn.jpg",
+              "alt": "SSSS Board Game Night"
             }
           ]
         },
         {
-          "subheader": "",
+          "subheader": "August's Hiking SSSSocial",
           "text": [
-            ""
+            "SOSY hit their step count and caught some nice views during their Hiking SSSSocial!"
           ],
           "images": [
             {
-              "src": "",
-              "alt": ""
+              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/august_hiking.jpeg",
+              "alt": "SSSS Hiking Social"
             }
           ]
         }
@@ -73,10 +86,10 @@
 
   "upcoming_articles": [
     {
-      "header": "BOARD GAME NIGHT",
+      "header": "BOARD GAMES NIGHT",
       "sections": [
         {
-          "subheader": "Wednesday, August 5, 5-9PM, SRYE 5050",
+          "subheader": "Wednesday, October 14",
           "text": [
             "Play some board games and take a break from studying!"
           ]
@@ -84,12 +97,12 @@
       ]
     },
     {
-      "header": "Hiking Social",
+      "header": "STUDY HALL",
       "sections": [
         {
-          "subheader": "Sunday, August 30th",
+          "subheader": "Friday, October 16",
           "text": [
-            "Join the SSSS for a lovely Hike, more details TBA!"
+            "SSSStudy with your peers! Prep for midterms, assignments, and projects."
           ]
         }
       ]
@@ -110,6 +123,6 @@
   "signature": {
     "name": "Ryan Gamboa",
     "position": "Upper Division Representative",
-    "endingNote": "aaaaannnddd that's a wrap! see you in September :)"
+    "endingNote": "aaaaannnddd that's a wrap! see you in October :)"
   }
 }
