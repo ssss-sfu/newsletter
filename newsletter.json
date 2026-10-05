@@ -1,7 +1,7 @@
 {
   "header": {
-    "title": "SSSS September Newsletter",
-    "description": "yooooo, what's going on SOSY students?! Let's start the last semester of 2026 off right with a recap of August - September!"
+    "title": "SSSS October Newsletter",
+    "description": "BOO! It's finally SSSSpooky season here at SFU so let's recap some (paranormal?) activities from September, a spooktacular Fall 2026 Election, and some scaretastic events coming soon!"
   },
 
   "recap_articles": [
@@ -9,74 +9,78 @@
       "header": "September News",
       "sections": [
         {
-          "subheader": "Roadmap Night!",
+          "subheader": "SSSS Fall Election Results!",
           "text": [
-            "Learn how to get the most out of your CS/SoSy degree at Roadmap Night! This event gives you direct access to SFU faculty perspective and peer experience, helping you take a more goal-driven approach to your degree.",
-            "https://luma.com/5egcwk30"
+            "We've tallied the votes and are happy to anounce the winners of this past election!",
+            "Secretary: Manpreet Singh Parmar",
+            "Director of Visual Design: Andrew Hung",
+            "Director of Marketing: Sukhdeep Kaur Somal",
+            "First Year Representatives: Nusayba Khan, Aaron Lama, Darren Teo",
+            "Congratulations on a successful election campaign!", 
+            "Thank you to all who applied and voted, you're engagement in the SSSS is valued <3"
           ],
           "images": [
             {
-              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/roadmap_night.png",
-              "alt": "CSSS/SSSS Roadmap Night Event Poster"
+              "src": "",
+              "alt": ""
             }
           ]
         },
         {
-          "subheader": "SSSS Elections",
+          "subheader": "SSSS General Meeting",
           "text": [
-            "It's By-Election time for the SSSS Executive Team! If you are interested, send your nomination to ss-pres@sfu.ca BEFORE SEPTEMBER 28 @ 11:59PM with the following info:",
-            "- Your full name",
-            "- SFU computing ID",
-            "- Position of choice",
-            "- A blurb/speech on why you should be chosen",
-            "Info about the roles can be found in the link provided.",
-            "https://docs.google.com/document/d/13Pqf_bsGlZXkNbL-ML_ezK4w7IPrXoqZqP9Wv8fFQJc/edit?usp=sharing"
+            ""
           ],
           "images": [
             {
-              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/ssss_elections.png",
-              "alt": "SSSS By-Election Poster"
+              "src": "",
+              "alt": ""
             }
           ]
         }
       ]
     },
     {
-      "header": "August - September Event Recap",
+      "header": "September Event Recap",
       "sections": [
         {
-          "subheader": "September's FROSH",
+          "subheader": "Roadmap Night",
           "text": [
-            "Congratulations to all the SOSY Froshees on their first-ever FROSH! Shout-out to all the SOSY execs/leaders who helped out with the week's events <3 "
+            "SOSY and CSSS students learned how to navigate their degrees with advice from SFU Faculty and Alumni/Students, alongside practicing their networking skills!",
+            "Biggest of Thank-You's to Professors Nick Sumber and Steven Ko, along with Brian Rahadi, Gahee Kim, Mekdim Dereje, Chloe Yip, and Mantaj Dhillon!"
           ],
           "images": [
             {
-              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/midnight_madness.jpeg",
-              "alt": "SSSS Once Upon A Frosh"
+              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/roadmap-night-society.jpeg",
+              "alt": "CSSS/SOSY Roadmap Night Picture with CSSS/SSSS members"
+            },
+            {
+              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/roadmap-night-group.jpeg",
+              "alt": "CSSS/SOSY Roadmap Night Picture with Attendees"              
             }
           ]
         },
         {
-          "subheader": "August's Board Game Night",
+          "subheader": "",
           "text": [
-            "Pizza, Board Games, and SOSY friends! What more could you need?"
+            ""
           ],
           "images": [
             {
-              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/august_bgn.jpg",
-              "alt": "SSSS Board Game Night"
+              "src": "",
+              "alt": ""
             }
           ]
         },
         {
-          "subheader": "August's Hiking SSSSocial",
+          "subheader": "",
           "text": [
-            "SOSY hit their step count and caught some nice views during their Hiking SSSSocial!"
+            ""
           ],
           "images": [
             {
-              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/august_hiking.jpeg",
-              "alt": "SSSS Hiking Social"
+              "src": "",
+              "alt": ""
             }
           ]
         }
@@ -86,23 +90,23 @@
 
   "upcoming_articles": [
     {
-      "header": "BOARD GAMES NIGHT",
+      "header": "STUDY HALL",
       "sections": [
         {
-          "subheader": "Wednesday, October 21, 3-7pm",
+          "subheader": "Friday, October 16, 12-3pm, SRYC 3330",
           "text": [
-            "Play some board games and take a break from studying!"
+            "SSSStudy with your peers! Prep for midterms, assignments, and projects with fellow SOSY students."
           ]
         }
       ]
     },
     {
-      "header": "STUDY HALL",
+      "header": "BOARD GAMES NIGHT + Karaoke",
       "sections": [
         {
-          "subheader": "Friday, October 16",
+          "subheader": "Wednesday, October 21, 3-7pm, SRYE 5050",
           "text": [
-            "SSSStudy with your peers! Prep for midterms, assignments, and projects."
+            "Play some board games or sing your heart out and take a break from studying!"
           ]
         }
       ]
@@ -123,6 +127,6 @@
   "signature": {
     "name": "Ryan Gamboa",
     "position": "Upper Division Representative",
-    "endingNote": "aaaaannnddd that's a wrap! see you in October :)"
+    "endingNote": "gg fricken ez! see you in November :)"
   }
 }
