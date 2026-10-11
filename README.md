@@ -7,6 +7,7 @@ Templated version of newsletter HTML by Gahee Kim and SFU Women in Computing Sci
 ## Install
 
 Run only once.
+
 ```
 $ python3 -m venv venv && source venv/bin/activate && python3 -m pip install -U -r requirements.txt
 ```
@@ -15,7 +16,8 @@ $ python3 -m venv venv && source venv/bin/activate && python3 -m pip install -U 
 
 1. Edit `newsletter.json`
 2. `$ source venv/bin/activate && python3 newsletter.py && deactivate`
-3. Use `build/build.html`
+3. Push any new images to github
+4. Use `build/build.html`
 
 ## Example newsletter.json
 
@@ -77,15 +79,28 @@ $ python3 -m venv venv && source venv/bin/activate && python3 -m pip install -U 
 }
 ```
 
+
+
 ### Special Formatting
+
 - `header.description` and `articles[i].sections[j].text`
 - Links supported (URL)
 - Bold text supported `<b>...</b>`
+- Bullet lists supported
+  - start each line in `text` with `-` , e.g. `"- <b>Secretary:</b> Example Person"`
+- Empty sections, text and images (`"src": ""`) are skipped, so placeholders can stay
 - Images supported 
-  - must upload images to github repo, use `https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/image_name` for image source
+  - put each month's images in a new `src/img/YYYY-MM/` folder, use `YYYY-MM/image_name` for image source
+  - large photos are shrunk automatically when building, commit the smaller file
+  - alt text required, build warns if missing
   - caption optional
+  - PNG or JPEG only, Gmail and Outlook don't show SVG
+  - **never move, rename or delete an image after sending**, it breaks the image in every sent email. No need to archive old folders
+  - `src/img/archive/` has images from before October 2026, leave as is
 - separate sections supported 
   - set up for event recap and upcoming events,  can update section titles under `index.jinja`
+
+
 
 ## Warning
 

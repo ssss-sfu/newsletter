@@ -1,26 +1,42 @@
 <div style="
-padding-left: 2%;
-padding-right: 2%;
+padding-left: 24px;
+padding-right: 24px;
 ">
 
+    {% if subheader %}
     <p style="
     font-family: 'Dm Sans', 'Trebuchet MS', Consolas, Arial, sans-serif, monospace;
     line-height: 1.5;
+    margin-top: 6px;
     color: #564DC2;
     font-weight: 700;
     font-style: italic;
     " class="detail">
         {{ subheader }}
     </p>
+    {% endif %}
 
-    {% for paragraph in text %}
+    {% for kind, content in blocks %}
+        {% if kind == "list" %}
+        <ul style="
+        font-family: 'Dm Sans', 'Trebuchet MS', Consolas, Arial, sans-serif, monospace;
+        line-height: 1.5;
+        margin-top: 0.35em;
+        padding-left: 22px;
+        ">
+            {% for item in content %}
+            <li style="margin-top: 2px;">{{ item | safe | urlize }}</li>
+            {% endfor %}
+        </ul>
+        {% else %}
         <p style="
         font-family: 'Dm Sans', 'Trebuchet MS', Consolas, Arial, sans-serif, monospace;
         line-height: 1.5;
         margin-top:0.35em;
         ">
-            {{ paragraph | safe | urlize }}
+            {{ content | safe | urlize }}
         </p>
+        {% endif %}
     {% endfor %}
 
     {% if images %}

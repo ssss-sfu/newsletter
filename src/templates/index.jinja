@@ -7,13 +7,13 @@
     <meta name="color-scheme" content="light only">
     <meta name="supported-color-schemes" content="light only">
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
-    <!-- [ if !mso]> <!-->
+    <!--[if !mso]><!-->
     <meta content="IE=edge" http-equiv="X-UA-Compatible" />
-    <!-- <![endif] -->
+    <!--<![endif]-->
     <meta content="telephone=no" name="format-detection" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>SSSS Newsletter</title>
+    <title>{{ header.title }}</title>
 
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
@@ -31,10 +31,6 @@
         .ExternalClass img {
             line-height: 100% !important;
         }
-        :root {
-            --main-font: 'DM Sans', 'Trebuchet MS', Arial, sans-serif;
-        }
-
         body {
             margin: 0;
             padding: 0;
@@ -220,7 +216,6 @@
         }
 
         * {
-            font-family: var(--main-font) !important;
             color-scheme: light only;
             margin: 0;
             border: 0;
@@ -238,22 +233,23 @@
     "
     bgcolor="#DAE5EF">
 
+    <!-- Inbox preview text -->
+    <div style="display: none; max-height: 0px; overflow: hidden;">
+        {{ header.description | striptags }}
+    </div>
+    <!-- Insert &zwnj;&nbsp; hack after hidden preview text -->
+    <div style="display: none; max-height: 0px; overflow: hidden;">
+        &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+    <div class="Gmail"
+        style="height: 1px !important; margin-top: -1px !important; max-width: 600px !important; min-width: 600px !important; width: 600px !important;">
+    </div>
+
     <!-- START EMAIL -->
     <table width="100%" cellpadding="0" cellspacing="0" style="background-color: #DAE5EF;" border="0" bgcolor="#DAE5EF">
-        <div class="Gmail"
-            style="height: 1px !important; margin-top: -1px !important; max-width: 600px !important; min-width: 600px !important; width: 600px !important;">
-        </div>
-        <div style="display: none; max-height: 0px; overflow: hidden;">
-            SSSS Newsletter
-        </div>
-        <!-- Insert &zwnj;&nbsp; hack after hidden preview text -->
-        <div style="display: none; max-height: 0px; overflow: hidden;">
-            &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        </div>
-
         <tr>
-            <td width="100%" valign="top" align="center" class="padding-container
-                style=" padding-top: 0px!important; padding-bottom: 18px!important; mso-padding-alt: 0px 0px 18px 0px;>
+            <td width="100%" valign="top" align="center" class="padding-container"
+                style="padding-top: 0px!important; padding-bottom: 18px!important; mso-padding-alt: 0px 0px 18px 0px;">
                 <table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="wrapper">
                     <tr>
                         <td>
@@ -275,6 +271,7 @@
                                                                 <img align="center" width="600"
                                                                     style="border-radius: 3px 3px 0px 0px; width: 100%; max-width: 600px!important"
                                                                     class="hund"
+                                                                    alt="Software Systems Student Society Newsletter"
                                                                     src="https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/new_banner.png">
                                                             </td>
                                                         </tr>
@@ -292,47 +289,31 @@
                                                         <!-- CONTENT -->
                                                         <tr>
                                                             <td>
-                                                             <p style="
-                                                                font-size: 32px;
-                                                                font-weight: 700;
-                                                                padding-top: 40px;
-                                                                padding-left: 2%;
-                                                                color: #1D3557;
-                                                                ">
-                                                                    <!-- add section title here -->
-                                                                </p>
                                                                 <!-- EVENT RECAPS -->
-                                                                  <div style="background-color: #f4f7fb;">
-                                                              
+                                                                {% if recap_articles %}
+                                                                {% with heading="News & Recaps" %}{% include "heading.jinja" %}{% endwith %}
                                                                 {% for article in recap_articles %}
+                                                                    {% if not loop.first %}{% include "divider.jinja" %}{% endif %}
                                                                     {% with
                                                                     header=article.header,
                                                                     sections=article.sections %}
                                                                         {% include "article.jinja" %}
                                                                     {% endwith %}
                                                                 {% endfor %}
+                                                                {% endif %}
 
-                                                          
-                                                                   </div>
                                                                 <!-- UPCOMING EVENTS -->
-                                                              
-                                                                <p style="
-                                                                font-size: 32px;
-                                                                font-weight: 700;
-                                                                padding-top: 40px;
-                                                                padding-left: 2%;
-                                                                color: #1D3557;
-                                                                ">
-                                                                    Upcoming Events
-                                                                </p>
-
+                                                                {% if upcoming_articles %}
+                                                                {% with heading="Upcoming Events" %}{% include "heading.jinja" %}{% endwith %}
                                                                 {% for article in upcoming_articles %}
+                                                                    {% if not loop.first %}{% include "divider.jinja" %}{% endif %}
                                                                     {% with
                                                                     header=article.header,
                                                                     sections=article.sections %}
                                                                         {% include "article.jinja" %}
                                                                     {% endwith %}
                                                                 {% endfor %}
+                                                                {% endif %}
                                                           
                                                             </td>
                                                         </tr>
@@ -355,9 +336,11 @@
                                             <tr>
                                                 <td style="background-color: #0b151c;">
                                                     <table width="100%">
+                                                        <tr>
                                                         <td
                                                             style="text-align: center; padding: 30px 20px; padding-right: 40px; color: #FFF">
                                                             <a href="https://www.sfussss.org/"><img
+                                                                    alt="SSSS website"
                                                                     src="https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/footer-banner.png"
                                                                     width="280"
                                                                     style="padding: 20px; max-width: 280px;"></a>
@@ -374,21 +357,25 @@
                                                                 Surrey, BC V3T 0N1</p>
                                                             <p
                                                                 style="font-family: 'Dm Sans', 'Trebuchet MS', Consolas, Arial, sans-serif, monospace; padding: 10px; color:#FFF">
-                                                                Get in Touch: ssss-exec@sfu.ca</p>
+                                                                Get in Touch: <a href="mailto:ssss-exec@sfu.ca" style="color: #FFF; text-decoration: underline;">ssss-exec@sfu.ca</a></p>
 
                                                             <a href="https://www.instagram.com/ssss.sfu/"><img
-                                                                    src="https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/instagram-icon.svg"
+                                                                    alt="Instagram"
+                                                                    src="https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/instagram-icon.png"
                                                                     width="30"
                                                                     style="padding: 20px; max-width: 30px;"></a>
                                                             <a href="https://discord.gg/XZUd7amxPq"><img
-                                                                    src="https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/discord-icon.svg"
+                                                                    alt="Discord"
+                                                                    src="https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/discord-icon.png"
                                                                     width="30"
                                                                     style="padding: 20px; max-width: 30px;"></a>
                                                             <a href="https://www.linkedin.com/company/ssss-sfu/"><img
-                                                                    src="https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/linkedin-icon.svg"
+                                                                    alt="LinkedIn"
+                                                                    src="https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/linkedin-icon.png"
                                                                     width="30"
                                                                     style="padding: 20px; max-width: 30px;"></a>
                                                         </td>
+                                                        </tr>
                                                     </table>
                                                 </td>
                                             </tr>
@@ -402,9 +389,6 @@
                 </table>
             </td>
         </tr>
-    </table>
-    </td>
-    </tr>
     </table>
 </body>
 

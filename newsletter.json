@@ -12,31 +12,12 @@
           "subheader": "SSSS Fall Election Results!",
           "text": [
             "We've tallied the votes and are happy to anounce the winners of this past election!",
-            "Secretary: Manpreet Singh Parmar",
-            "Director of Visual Design: Andrew Hung",
-            "Director of Marketing: Sukhdeep Kaur Somal",
-            "First Year Representatives: Nusayba Khan, Aaron Lama, Darren Teo",
-            "Congratulations on a successful election campaign!", 
+            "- <b>Secretary:</b> Manpreet Singh Parmar",
+            "- <b>Director of Visual Design:</b> Andrew Hung",
+            "- <b>Director of Marketing:</b> Sukhdeep Kaur Somal",
+            "- <b>First Year Representatives:</b> Nusayba Khan, Aaron Lama, Darren Teo",
+            "Congratulations on a successful election campaign!",
             "Thank you to all who applied and voted, your engagement in the SSSS is valued <3"
-          ],
-          "images": [
-            {
-              "src": "",
-              "alt": ""
-            }
-          ]
-        },
-        {
-          "subheader": "SSSS Fall General Meeting",
-          "text": [
-            "Date: Wednesday, October 21st from 6-7pm",
-            "Location: SRYE 5050 or virtually in Room 3006.3 on the SSSS Discord",
-            "Meeting Agenda: ",
-            "- Honorary Membership Motions",
-            "- Upcoming events for the rest of the term",
-            "- Open floor for discussions",
-            "If you're new, this is the best way to meet our exec team, see what the SSSS is working on, and have a vote in what we do next.",
-            "Everyone is welcome!"
           ],
           "images": [
             {
@@ -58,12 +39,14 @@
           ],
           "images": [
             {
-              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/roadmap-night-society.jpeg",
-              "alt": "CSSS/SOSY Roadmap Night Picture with CSSS/SSSS members"
+              "src": "2026-10/roadmap-night-society.jpeg",
+              "alt": "CSSS/SOSY Roadmap Night Picture with CSSS/SSSS members",
+              "caption": "The CSSS and SSSS teams behind Roadmap Night"
             },
             {
-              "src": "https://raw.githubusercontent.com/ssss-sfu/newsletter/main/src/img/roadmap-night-group.jpeg",
-              "alt": "CSSS/SOSY Roadmap Night Picture with Attendees"              
+              "src": "2026-10/roadmap-night-group.jpeg",
+              "alt": "CSSS/SOSY Roadmap Night Picture with Attendees",
+              "caption": "Everyone who came out to Roadmap Night!"
             }
           ]
         },
@@ -97,7 +80,7 @@
 
   "upcoming_articles": [
     {
-      "header": "STUDY HALL",
+      "header": "Study Hall",
       "sections": [
         {
           "subheader": "Friday, October 16, 12-3pm, SRYC 3330",
@@ -108,12 +91,27 @@
       ]
     },
     {
-      "header": "BOARD GAMES NIGHT + Karaoke",
+      "header": "Board Games Night + Karaoke",
       "sections": [
         {
           "subheader": "Wednesday, October 21, 3-7pm, SRYE 5050",
           "text": [
             "Play some board games or sing your heart out and take a break from studying!"
+          ]
+        }
+      ]
+    },
+    {
+      "header": "SSSS Fall General Meeting",
+      "sections": [
+        {
+          "subheader": "Wednesday, October 21, 6-7pm, SRYE 5050 or Discord (Room 3006.3)",
+          "text": [
+            "Meeting Agenda:",
+            "- Honorary Membership Motions",
+            "- Upcoming events for the rest of the term",
+            "- Open floor for discussions",
+            "If you're new, this is the best way to meet our exec team, see what the SSSS is working on, and have a vote in what we do next. Everyone is welcome!"
           ]
         }
       ]

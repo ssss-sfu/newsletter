@@ -39,15 +39,34 @@ class Section:
 
     @staticmethod
     def from_dict(obj: Any) -> "Section":
-        _subheader = str(obj.get("subheader"))
-        _text = [str(y) for y in obj.get("text", [])]
+        _subheader = str(obj.get("subheader", ""))
+        # Skip blank placeholders so they don't render as empty paragraphs/broken images
+        _text = [str(y) for y in obj.get("text", []) if str(y).strip()]
 
         _images = [
             Image.from_dict(y)
             for y in obj.get("images", [])
+            if y.get("src")
         ]
 
         return Section(_subheader, _text, _images)
+
+    def is_empty(self) -> bool:
+        return not (self.subheader.strip() or self.text or self.images)
+
+    def blocks(self):
+        # Consecutive lines starting with "- " become one bulleted list
+        _blocks = []
+        for line in self.text:
+            if line.lstrip().startswith("- "):
+                item = line.lstrip()[2:]
+                if _blocks and _blocks[-1][0] == "list":
+                    _blocks[-1][1].append(item)
+                else:
+                    _blocks.append(("list", [item]))
+            else:
+                _blocks.append(("paragraph", line))
+        return _blocks
 
 
 @dataclass
@@ -71,9 +90,13 @@ class Article:
 
     @staticmethod
     def from_dict(obj: Any) -> "Article":
-        _header = str(obj.get("header"))
-        _sections = [Section.from_dict(y) for y in obj.get("sections")]
+        _header = str(obj.get("header", ""))
+        _sections = [Section.from_dict(y) for y in obj.get("sections", [])]
+        _sections = [y for y in _sections if not y.is_empty()]
         return Article(_header, _sections)
+
+    def is_empty(self) -> bool:
+        return not (self.header.strip() or self.sections)
 
 
 @dataclass
@@ -103,11 +126,13 @@ class Root:
             Article.from_dict(y)
             for y in obj.get("recap_articles", [])
         ]
+        _recap_articles = [y for y in _recap_articles if not y.is_empty()]
 
         _upcoming_articles = [
             Article.from_dict(y)
             for y in obj.get("upcoming_articles", [])
         ]
+        _upcoming_articles = [y for y in _upcoming_articles if not y.is_empty()]
 
         _signature = Signature.from_dict(obj.get("signature"))
 
