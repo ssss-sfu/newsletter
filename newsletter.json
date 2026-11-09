@@ -1,55 +1,13 @@
 {
   "header": {
-    "title": "SSSS October Newsletter",
-    "description": "BOO! It's finally SSSSpooky season here at SFU so let's recap some (paranormal?) activities from September, a spooktacular Fall 2026 Election, and some scaretastic events coming soon!"
+    "title": "SSSS November Newsletter",
+    "description": "Halloween has passed and Christmas is right around the corner, let's see what the SSSS was up to during the month of November!"
   },
 
   "recap_articles": [
    {
-      "header": "September News",
+      "header": "November News",
       "sections": [
-        {
-          "subheader": "SSSS Fall Election Results!",
-          "text": [
-            "We've tallied the votes and are happy to anounce the winners of this past election!",
-            "- <b>Secretary:</b> Manpreet Singh Parmar",
-            "- <b>Director of Visual Design:</b> Andrew Hung",
-            "- <b>Director of Marketing:</b> Sukhdeep Kaur Somal",
-            "- <b>First Year Representatives:</b> Nusayba Khan, Aaron Lama, Darren Teo",
-            "Congratulations on a successful election campaign!",
-            "Thank you to all who applied and voted, your engagement in the SSSS is valued <3"
-          ],
-          "images": [
-            {
-              "src": "",
-              "alt": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "header": "September Event Recap",
-      "sections": [
-        {
-          "subheader": "Roadmap Night",
-          "text": [
-            "SOSY and CSSS students learned how to navigate their degrees with advice from SFU Faculty and Alumni/Students, alongside practicing their networking skills!",
-            "Biggest of Thank-You's to Professors Nick Sumner and Steven Ko, along with Brian Rahadi, Gahee Kim, Mekdim Dereje, Chloe Yip, and Mantaj Dhillon!"
-          ],
-          "images": [
-            {
-              "src": "2026-10/roadmap-night-society.jpeg",
-              "alt": "CSSS/SOSY Roadmap Night Picture with CSSS/SSSS members",
-              "caption": "The CSSS and SSSS teams behind Roadmap Night"
-            },
-            {
-              "src": "2026-10/roadmap-night-group.jpeg",
-              "alt": "CSSS/SOSY Roadmap Night Picture with Attendees",
-              "caption": "Everyone who came out to Roadmap Night!"
-            }
-          ]
-        },
         {
           "subheader": "",
           "text": [
@@ -61,9 +19,63 @@
               "alt": ""
             }
           ]
+        }
+      ]
+    },
+    {
+      "header": "November Event Recap",
+      "sections": [
+        {
+          "subheader": "Bouldering Social",
+          "text": [
+            "The SSSS climbed the rocks but the real prize were the friends made along the way!"
+          ],
+          "images": [
+            {
+              "src": "2026-11/bouldering_social.jpg",
+              "alt": "SSSS Bouldering Social Picture with CSSS members",
+              "caption": "SSSS members who attended the Bouldering Social"
+            }
+          ]
         },
         {
-          "subheader": "",
+          "subheader": "Web Dev Workshop",
+          "text": [
+            ""
+          ],
+          "images": [
+            {
+              "src": "",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "subheader": "Board Game Night",
+          "text": [
+            ""
+          ],
+          "images": [
+            {
+              "src": "",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "subheader": "Halloween Movie Marathon",
+          "text": [
+            ""
+          ],
+          "images": [
+            {
+              "src": "",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "subheader": "Study Hall",
           "text": [
             ""
           ],
@@ -80,38 +92,36 @@
 
   "upcoming_articles": [
     {
-      "header": "Study Hall",
+      "header": "SSSS First Year Bowling Social",
       "sections": [
         {
-          "subheader": "Friday, October 16, 12-3pm, SRYC 3330",
+          "subheader": "Friday, November 20, 3:00 - 5:00 pm, @ REVS Bowling (5502 Lougheed Hwy, Burnaby, BC)",
           "text": [
-            "SSSStudy with your peers! Prep for midterms, assignments, and projects with fellow SOSY students."
+            "If you're a First-Year SoSy student looking to have some fun after midterms, join us for our upcoming First-Year Bowling Social!",
+            "Spend time with peers, meet some new people, and blow off that midterm-steam with some friendly competition!",
+            "50% off for the first 18 RSVPs so grab your spot quick via the link below",
+            "https://forms.gle/nMRiq3wJr4PjeXgb6"
           ]
         }
       ]
     },
     {
-      "header": "Board Games Night + Karaoke",
+      "header": "",
       "sections": [
         {
-          "subheader": "Wednesday, October 21, 3-7pm, SRYE 5050",
+          "subheader": "",
           "text": [
-            "Play some board games or sing your heart out and take a break from studying!"
+            ""
           ]
         }
       ]
     },
     {
-      "header": "SSSS Fall General Meeting",
+      "header": "",
       "sections": [
         {
-          "subheader": "Wednesday, October 21, 6-7pm, SRYE 5050 or Discord (Room 3006.3)",
+          "subheader": "",
           "text": [
-            "Meeting Agenda:",
-            "- Honorary Membership Motions",
-            "- Upcoming events for the rest of the term",
-            "- Open floor for discussions",
-            "If you're new, this is the best way to meet our exec team, see what the SSSS is working on, and have a vote in what we do next. Everyone is welcome!"
           ]
         }
       ]
@@ -132,6 +142,6 @@
   "signature": {
     "name": "Ryan Gamboa",
     "position": "Upper Division Representative",
-    "endingNote": "gg fricken ez! see you in November :)"
+    "endingNote": "gg fricken ez! see you in December :)"
   }
 }
