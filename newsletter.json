@@ -6,7 +6,7 @@
 
   "recap_articles": [
    {
-      "header": "November News",
+      "header": "",
       "sections": [
         {
           "subheader": "",
@@ -28,7 +28,7 @@
         {
           "subheader": "Bouldering Social",
           "text": [
-            "The SSSS climbed the rocks but the real prize were the friends made along the way!"
+            "a PEAK event (get it?), the SSSS climbed the rocks and made some friends along the way!"
           ],
           "images": [
             {
@@ -41,41 +41,46 @@
         {
           "subheader": "Web Dev Workshop",
           "text": [
-            ""
+            "The SSSS hosted a great HTML + CSS Workshop, teaching the next generation of developers!",
+            "If you missed out but want to learn some web dev, click the link to the github repo below!",
+            "https://github.com/ssss-sfu/WebDevWorkSSSShop"
           ],
           "images": [
             {
-              "src": "",
-              "alt": ""
+              "src": "2026-11/web_dev.jpg",
+              "alt": "SSSS Co-President helping two workshop attendees.",
+              "caption": "Our Co-Prez hard at work!"
             }
           ]
         },
         {
           "subheader": "Board Game Night",
           "text": [
-            ""
+            "Good pizza, great board games, even better company!"
           ],
           "images": [
             {
-              "src": "",
-              "alt": ""
-            }
-          ]
-        },
-        {
-          "subheader": "Halloween Movie Marathon",
-          "text": [
-            ""
-          ],
-          "images": [
-            {
-              "src": "",
-              "alt": ""
+              "src": "2026-11/bgn.jpg",
+              "alt": "Group of students playing a boardgame on a table.",
+              "caption": "A glimpse into a Unstable Unicorns game that lasted 1.5 hours"
             }
           ]
         },
         {
           "subheader": "Study Hall",
+          "text": [
+            "Our SSSS members love to study with each other and ace their midterms!"
+          ],
+          "images": [
+            {
+              "src": "2026-11/study_hall.jpg",
+              "alt": "Students studying with each other at tables.",
+              "caption": "SSSSuch SSSStudious SSSStudents"
+            }
+          ]
+        },
+        {
+          "subheader": "",
           "text": [
             ""
           ],
